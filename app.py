@@ -62,7 +62,7 @@ if __name__ == "__main__":
     with st.sidebar:
         st.markdown("---")
         st.markdown(
-            '<h6>Orgulhosamente Produzido no Streamlit &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp Por <a href="https://www.linkedin.com/in/brunomarmello">MarTechBM</a></h6>',
+            '<h6>Orgulhosamente Produzido no Streamlit &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp <br> Por <a href="https://www.linkedin.com/in/brunomarmello">MarTechBM</a></h6>',
             unsafe_allow_html=True,
         )
         st.markdown(
