@@ -48,10 +48,10 @@ def main():
 
     demo()
 
-    sourcelines, _ = inspect.getsourcelines(demo)
+    '''sourcelines, _ = inspect.getsourcelines(demo)
     with st.expander("Source Code"):
         st.code(textwrap.dedent("".join(sourcelines[1:])))
-    st.markdown(f"Credit: {url}")
+    st.markdown(f"Credit: {url}")'''
 
 
 if __name__ == "__main__":
